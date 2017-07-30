@@ -1,0 +1,34 @@
+body {
+  background-image: url('bg.jpg');
+  background-attachment: fixed;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 3.5em;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+}
+
+a {
+  text-decoration: none;
+  color: mediumblue;
+}
+
+a:hover {
+  color: blue;
+}
+
+.placeholder {
+  max-width: 90%;
+  margin: 0 auto;
+  line-height: 1.5;
+  margin-top: 5vh;
+}
