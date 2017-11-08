@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Neuton');
 
 body {
-  background-image: url('bg.jpg');
+  background-image: url('transcanada_quebec.jpg');
   background-attachment: fixed;
   background-position: bottom right;
   background-repeat: no-repeat;
@@ -15,6 +15,8 @@ h1 {
   font-weight: 400;
   margin-top: 0px;
   margin-bottom: 0.5em;
+  color: white;
+  text-shadow: 2px 2px black;
 }
 
 p {
@@ -41,6 +43,39 @@ a:active {
   margin: 0 auto;
   line-height: 1.2;
   margin-top: 5vh;
+}
+
+.work_samples {
+  display: inline-block;
+}
+
+li {
+  list-style: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px 20px 10px 20px;
+  margin: 10px;
+  border-radius: 14px;
+}
+
+li:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.project_title a {
+  font-family: 'Neuton', serif;
+  font-size: 2em;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.project_title a:hover {
+  color: salmon;
+}
+
+.work_samples p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 6px 0px 6px 0px;
 }
 
 /* Mobile Phones: */
