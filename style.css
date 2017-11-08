@@ -4,9 +4,26 @@
 body {
   background-image: url('transcanada_quebec.jpg');
   background-attachment: fixed;
-  background-position: bottom right;
+  background-position: top left;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.social_buttons {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+}
+
+.fa-linkedin-square, .fa-github-square, .fa-envelope-square {
+  font-size: 2.5em;
+  letter-spacing: 5px;
+  color: white;
+  opacity: 0.5;
+}
+
+.fa-linkedin-square:hover, .fa-github-square:hover, .fa-envelope-square:hover {
+  opacity: 1;
 }
 
 h1 {
@@ -14,7 +31,7 @@ h1 {
   font-size: 6em;
   font-weight: 400;
   margin-top: 0px;
-  margin-bottom: 0.5em;
+  margin-bottom: 0px;
   color: white;
   text-shadow: 2px 2px black;
 }
@@ -27,45 +44,49 @@ p {
 
 a {
   text-decoration: none;
-  color: mediumblue;
-}
-
-a:hover {
-  color: blue;
-}
-
-a:active {
-  color: red;
 }
 
 .placeholder {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   line-height: 1.2;
-  margin-top: 5vh;
 }
 
 .work_samples {
   display: inline-block;
 }
 
-li {
-  list-style: none;
+.project_box {
+  margin: 10px 0px 10px 0px;
   background-color: rgba(0, 0, 0, 0.3);
   padding: 10px 20px 10px 20px;
-  margin: 10px;
   border-radius: 14px;
 }
 
-li:hover {
+.project_box:hover {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-.project_title a {
+h2 {
+  margin: 4px;
   font-family: 'Neuton', serif;
   font-size: 2em;
+  font-weight: 400;
   color: white;
   text-shadow: 1px 1px black;
+}
+
+h2:hover {
+  color: salmon;
+}
+
+.project_box p {
+  color: black;
+  padding: 0px 20px 0px 20px;
+}
+
+.project_box p:hover {
+  color: black;
 }
 
 .project_title a:hover {
