@@ -16,7 +16,7 @@ body {
 }
 
 .fa-linkedin-square, .fa-github-square, .fa-envelope-square {
-  font-size: 2.5em;
+  font-size: 2em;
   letter-spacing: 5px;
   color: white;
   opacity: 0.5;
@@ -114,16 +114,41 @@ h2:hover {
     .placeholder {
       margin-top: 2vh;
       line-height: 1.2;
+      width: 90%;
     }
 
     h1 {
       font-size: 8em;
-      margin-bottom: 0em;
-      margin-top: 0.2em;
+      margin-bottom: 0.5em;
+      margin-top: 0.5em;
+    }
+
+    h2 {
+      font-size: 2.2em;
+      margin: 20px;
     }
 
     p {
-      font-size: 1.1em;
+      font-size: 2.5em;
+      line-height:
+    }
+
+    .project_box {
+      font-size: 2em;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .project_box p {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      color: white;
+    }
+
+    .fa-linkedin-square, .fa-github-square, .fa-envelope-square {
+      font-size: 7em;
+      letter-spacing: 10px;
     }
 
   }
@@ -142,12 +167,12 @@ h2:hover {
 
     h1 {
       font-size: 8em;
-      margin-bottom: 0px;
-      margin-top: 0px;
+      margin-bottom: 40px;
+      margin-top: 20px;
     }
 
     p {
-      font-size: 1.8em;
+      font-size: 2em;
       line-height: 1.2;
     }
 
