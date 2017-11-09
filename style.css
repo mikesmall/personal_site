@@ -17,7 +17,7 @@ body {
 
 .fa-linkedin-square, .fa-github-square, .fa-envelope-square {
   font-size: 4em;
-  letter-spacing: 5px;
+  letter-spacing: 10px;
   color: white;
   opacity: 0.5;
 }
@@ -64,13 +64,13 @@ a:hover {
 
 .project_box {
   margin: 10px 0px 10px 0px;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.2);
   padding: 10px 20px 10px 20px;
   border-radius: 14px;
 }
 
 .project_box:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 h2 {
