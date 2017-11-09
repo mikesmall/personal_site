@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Neuton');
 
 body {
-  background-image: url('transcanada_quebec.jpg');
+  background-image: url('planewing.jpg');
   background-attachment: fixed;
   background-position: top left;
   background-repeat: no-repeat;
@@ -16,7 +16,7 @@ body {
 }
 
 .fa-linkedin-square, .fa-github-square, .fa-envelope-square {
-  font-size: 3em;
+  font-size: 4em;
   letter-spacing: 5px;
   color: white;
   opacity: 0.5;
@@ -80,10 +80,6 @@ h2 {
   font-weight: 400;
   color: white;
   text-shadow: 1px 1px black;
-}
-
-h2:hover {
-  color: salmon;
 }
 
 .project_box p {
