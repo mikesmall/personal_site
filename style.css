@@ -103,6 +103,10 @@ h2 {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
 
+    body {
+      background-position: top left;
+    }
+
     .placeholder {
       margin-top: 2vh;
       line-height: 1.2;
