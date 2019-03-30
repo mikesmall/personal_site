@@ -122,11 +122,11 @@ h2 {
     h2 {
       font-size: 1em;
       margin: 20px;
+      margin-bottom: 12px;
     }
 
     p {
-      font-size: 1em;
-      line-height:
+      font-size: 1.2em;
     }
 
     .project_box {
