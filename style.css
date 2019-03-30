@@ -2,27 +2,31 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Neuton');
 
 body {
-  background-image: url('planewing.jpg');
+  background-image: url('http://michaelsmall.ca/planewing.jpg');
   background-attachment: fixed;
-  background-position: top left;
+  background-position: top right;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .social_buttons {
   position: fixed;
-  top: 1em;
-  right: 1em;
+  top: 1.2em;
+  right: 2em;
 }
 
-.fa-linkedin-square, .fa-github-square, .fa-envelope-square {
+.fa-linkedin-square,
+.fa-github-square,
+.fa-envelope-square {
   font-size: 4em;
-  letter-spacing: 10px;
   color: white;
   opacity: 0.5;
+  margin: 0 10px;
 }
 
-.fa-linkedin-square:hover, .fa-github-square:hover, .fa-envelope-square:hover {
+.fa-linkedin-square:hover,
+.fa-github-square:hover,
+.fa-envelope-square:hover {
   opacity: 1;
 }
 
@@ -43,10 +47,7 @@ p {
   color: black;
 }
 
-a {
-  text-decoration: none;
-}
-
+a,
 a:hover {
   text-decoration: none;
 }
@@ -63,14 +64,14 @@ a:hover {
 }
 
 .project_box {
-  margin: 10px 0px 10px 0px;
-  background-color: rgba(0, 0, 0, 0.1);
-  padding: 10px 20px 10px 20px;
+  margin: 10px 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
   border-radius: 14px;
 }
 
 .project_box:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 h2 {
@@ -86,8 +87,8 @@ h2 {
   color: black;
   font-size: 1.2em;
   line-height: 1.5;
-  margin: 6px 0px 6px 0px;
-  padding: 0px 10px 10px 20px;
+  margin: 6px 0;
+  padding: 0 10px 10px 20px;
 }
 
 .project_box p:hover {
@@ -95,15 +96,10 @@ h2 {
   text-decoration: none !important;
 }
 
-.project_title a:hover {
-  color: salmon;
-  text-decoration: none !important;
-}
-
 /* Mobile Phones: */
 @media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 720px)
+  and (min-width: 320px)
+  and (max-width: 720px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
 
@@ -114,18 +110,18 @@ h2 {
     }
 
     h1 {
-      font-size: 8em;
+      font-size: 3em;
       margin-bottom: 0.5em;
       margin-top: 0.5em;
     }
 
     h2 {
-      font-size: 2.2em;
+      font-size: 1em;
       margin: 20px;
     }
 
     p {
-      font-size: 2.5em;
+      font-size: 1em;
       line-height:
     }
 
@@ -140,11 +136,29 @@ h2 {
       padding-top: 10px;
       padding-bottom: 10px;
       color: white;
+      font-size: 0.5em;
     }
 
-    .fa-linkedin-square, .fa-github-square, .fa-envelope-square {
-      font-size: 7em;
-      letter-spacing: 10px;
+    .social_buttons {
+      z-index: 100;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 8px 0;
+      text-align: center;
+      top: initial;
+      background-color: #282829;
+    }
+
+    .fa-linkedin-square,
+    .fa-github-square,
+    .fa-envelope-square {
+      font-size: 3.2em;
+      opacity: 1;
+      margin: 0 18px;
     }
 
   }
