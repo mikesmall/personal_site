@@ -7,6 +7,7 @@ body {
   background-position: top right;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 30px;
 }
 
 .social_buttons {
@@ -105,6 +106,7 @@ h2 {
 
     body {
       background-position: top left;
+      padding-bottom: 70px;
     }
 
     .placeholder {
@@ -121,8 +123,7 @@ h2 {
 
     h2 {
       font-size: 1em;
-      margin: 20px;
-      margin-bottom: 12px;
+      margin: 12px 20px;
     }
 
     p {
