@@ -22,7 +22,7 @@ body {
   font-size: 4em;
   color: white;
   opacity: 0.5;
-  margin: 0 10px;
+  margin: 0 6px;
 }
 
 .fa-linkedin-square:hover,
@@ -33,10 +33,9 @@ body {
 
 h1 {
   font-family: 'Neuton', serif;
-  font-size: 6em;
+  font-size: 5em;
   font-weight: 400;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 50px 0 20px 0;
   color: white;
   text-shadow: 2px 2px black;
 }
@@ -69,6 +68,8 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 10px 20px;
   border-radius: 14px;
+  width: 80%;
+  max-width: 840px;
 }
 
 .project_box:hover {
@@ -135,6 +136,8 @@ h2 {
       margin-top: 20px;
       margin-bottom: 20px;
       background-color: rgba(0, 0, 0, 0.5);
+      width: initial;
+      max-width: initial;
     }
 
     .project_box p {
@@ -181,14 +184,20 @@ h2 {
     }
 
     h1 {
-      font-size: 8em;
+      font-size: 6em;
       margin-bottom: 40px;
       margin-top: 20px;
     }
 
     p {
-      font-size: 2em;
+      font-size: 1.4em;
       line-height: 1.2;
+    }
+
+    .fa-linkedin-square,
+    .fa-github-square,
+    .fa-envelope-square {
+      display: block;
     }
 
   }
